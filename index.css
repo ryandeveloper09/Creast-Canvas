@@ -7,6 +7,7 @@
     font-family: 'Raleway', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body, html {
@@ -19,12 +20,15 @@ body, html {
     align-items: center;
     background: linear-gradient(90deg, #A6A6A6, #FFFFFF);
     height: 70px;
+    padding: 0 20px;
 }
 
 .navbar-brand {
     font-weight: bold;
     font-family: Montserrat;
     color: black;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-brand img {
@@ -64,6 +68,7 @@ body, html {
     background: linear-gradient(90deg, #A6A6A6, #FFFFFF);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0.2);
     height: 90vh;
+    padding: 20px;
 }
 
 .main-text {
@@ -103,11 +108,13 @@ body, html {
 
 .card-store {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #section2 {
     height: 100vh;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
 .pro-card {
@@ -116,6 +123,7 @@ body, html {
     margin: 10vh;
     width: 50vh;
     border-radius: 0px 70px 3px 70px;
+    flex: 1 1 300px;
 }
 
 .pro-card img {
@@ -169,6 +177,7 @@ body, html {
 #section3 {
     height: 100vh;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0), 0 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
 .icons {
@@ -294,5 +303,31 @@ body, html {
 
     .navbar-brand {
         font-size: 16px;
+    }
+
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .navbar-nav {
+        top: 50px;
+    }
+
+    .main-cont1 {
+        margin-left: 2vh;
+    }
+
+    #main-btn {
+        width: 90%;
+        right: 0;
+        margin: 5vh auto;
+    }
+
+    .contact-card-store {
+        right: 5vh;
+    }
+
+    .head1 h3 {
+        margin-right: 10vh;
     }
 }
